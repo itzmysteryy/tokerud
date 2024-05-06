@@ -8,7 +8,7 @@
 }
 
 body{
-  background-color:#000000;
+  background-color:#222;
 }
 
 header{
@@ -17,21 +17,21 @@ header{
   left: 0;
   width: 100%;
   z-index: 99;
-  background-color: #47c2ff;
+  background-color: #111;
 }
 
 .nav{
   max-width: 1200px;
   margin: auto;
   width: 100%;
-  height: 50px;
+  height: 75px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .logo{
-  font-size: 1.1rem;
+  font-size: 1.7rem;
   font-weight: 500;
   text-decoration: none;
   text-transform: uppercase;
@@ -44,6 +44,7 @@ header{
   height: 30px;
   text-align: center;
   position: relative;
+  size: 200%;
 }
 
 .cart-count{
@@ -57,6 +58,7 @@ header{
   line-height:20px ;
   border-radius: 50%;
   z-index: 99;
+  color: white;
 }
 
 #cart-icon{
@@ -149,7 +151,7 @@ transform: scale(1.5);
   overflow-y: auto;
   overflow-x: hidden;
   padding: 20px;
-  background-color: white;
+  background-color: #333;
   box-shadow: 0 1px 4px rgba(40, 37, 37, 0.1);
   z-index: 100;
 }
@@ -166,6 +168,7 @@ transform: scale(1.5);
   margin-bottom: 1rem;
   padding-bottom:20px ;
   border-bottom: 1px solid rgba(0,0,0,0.1);
+  color: white;
 }
 
 .cart-box{
@@ -198,12 +201,13 @@ transform: scale(1.5);
 .cart-food-title{
    font-size: 1rem;
    text-transform: uppercase;
-   color:#ff6348;
    font-weight: 500;
+  color: white;
 }
 
 .cart-price{
   font-weight: 500;
+  color: white;
 }
 
 .cart-quantity{
@@ -224,21 +228,24 @@ transform: scale(1.5);
   display: flex;
   justify-content: flex-end;
   margin-top: 1.5rem;
+  color: white;
 }
 
 .total-title{
   font-size: 1rem;
   font-weight: 600;
+  color: white;
 }
 
 .total-price{
   margin-left: 0.5rem;
+  color: white;
 }
 
 .btn-buy{
   padding: 12px 20px;
-  background-color:#2f3542;
-  color:#fff;
+  background-color:#23c918;
+  color: #fff;
   border: none;
   font-size: 1rem;
   font-weight: 500;
@@ -251,4 +258,13 @@ transform: scale(1.5);
   right: 0.8rem;
   font-size: 2rem;
   cursor: pointer;
+  color: white;
+}
+
+.food-price{
+  font-weight: 700;
+}
+
+.cart-amt{
+  color: white;
 }
