@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tokerud Kantine</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="images/x-icon" href="./favicon.png">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <a class="logo">
+        <ion-icon name="fast-food"></ion-icon>
+        Tokerud Kantine
+      </a>
+      <div class="box">
+        <ion-icon name="cart" id="cart-icon"></ion-icon>
+      </div>
+      <div class="cart">
+        <div class="cart-title">Cart</div>
+        <div class="cart-content"></div>
+        <div class="user-inputs">
+          <label for="user-name">Name:</label>
+          <input type="text" id="user-name" required>
+          <label for="user-feide">Feide:</label>
+          <input type="text" id="user-feide" required>
+        </div>
+        <div class="total">
+          <div class="total-title">Total</div>
+          <div class="total-price">-</div>
+        </div>
+        <button class="btn-buy">Bestill</button>
+        <ion-icon name="close" id="cart-close"></ion-icon>
+      </div>
+    </div>
+  </header>
+  <br>
+  <div class="container">
+    <center><h2 class="title">Åpen alle dager: 11:30 - 11:55</h2></center>
+    <div class="shop-content">
+      <!-- Food Items -->
+      <div class="food-box">
+        <div class="pic">
+          <img src="images/litago.png" class="food-img" alt="Litago Melk">
+        </div>
+        <h2 class="food-title">Litago</h2>
+        <p>Sjokolade, Jordbær</p>
+        <span class="food-price"><strong>17kr</strong></span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      
+      <div class="food-box">
+        <div class="pic"><img src="images/froosh.jpg" class="food-img"></div>
+        <h2 class="food-title">Smoothies</h2>
+        <p>Mango, Appelsin, Banan</p>
+        <span class="food-price"><strong>15kr</strong></span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="images/sunniva.jpg" class="food-img"></div>
+        <h2 class="food-title">Juice</h2>
+        <p>Appelsin, Eple</p>
+        <span class="food-price"><strong>17kr</strong></span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="images/yt.jpg" class="food-img"></div>
+        <h2 class="food-title">YT</h2>
+        <p>Sjokolade, jordbær, Banan</p>
+        <span class="food-price"><strong>18kr</strong></span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="images/godmorgen.jpg" class="food-img"></div>
+        <h2 class="food-title">GodMorgen</h2>
+        <p>Vanilje, Mango, Banan</p>
+        <span class="food-price"><strong>18kr</strong></span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="images/bygg.jpg" class="food-img"></div>
+        <h2 class="food-title">Bygglunsj</h2>
+        <p>Bringebær, Jordbær</p>
+        <span class="food-price"><strong>18kr</strong></span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="images/sandwich.jpg" class="food-img"></div>
+        <h2 class="food-title">Sandwich</h2>
+        <p>Brunost, Onion, Pizza</p>
+        <span class="food-price"><strong>10kr</strong></span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic"><img src="images/mellombar.jpg" class="food-img"></div>
+        <h2 class="food-title">Mellombar</h2>
+        <p><strong>2 for 10</strong> Kokos, Sjokolade</p>
+        <span class="food-price"><strong>10kr</strong></span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
